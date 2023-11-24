@@ -1,3 +1,4 @@
+<?php
 if( isset( $_GET[ 'Submit' ] ) ) {
 	// Get input
 	$id = $_GET[ 'id' ];
@@ -22,5 +23,4 @@ if( isset( $_GET[ 'Submit' ] ) ) {
 
 	((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 }
-
 ?>
